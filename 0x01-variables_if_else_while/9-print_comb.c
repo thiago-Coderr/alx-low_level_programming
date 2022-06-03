@@ -17,7 +17,7 @@ int main(void)
 	else
 	{
          putchar(x % 10 + '0');
-	 putchar(', ');
+	 putchar(',' + ' ');
 	}
 	}
 	putchar('\n');
