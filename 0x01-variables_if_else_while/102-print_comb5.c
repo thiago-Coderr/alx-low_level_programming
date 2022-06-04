@@ -21,12 +21,11 @@ int main(void)
 			putchar((n2 % 10) + '0');
 
 			if (n1 == 98 && n2 == 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
