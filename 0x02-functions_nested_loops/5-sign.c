@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_sign - returns a sign
+ * @c: integer
+ * Return: true or false
+ */
 int print_sign(int n)
 {
 	if (n > 0)
