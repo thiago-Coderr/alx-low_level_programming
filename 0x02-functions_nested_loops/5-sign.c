@@ -2,7 +2,7 @@
 
 /**
  * print_sign - returns a sign
- * @c: integer
+ * @n: integer
  * Return: true or false
  */
 int print_sign(int n)
