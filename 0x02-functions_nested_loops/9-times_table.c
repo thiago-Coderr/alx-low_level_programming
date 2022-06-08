@@ -4,7 +4,7 @@
  * times_table - returns the tabe
  * Return: void
  */
-void times_table()
+void times_table(void)
 {
 	int a, b, op;
 
