@@ -1,5 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
+/**
+ * print_to_98 - prints many nubers
+ * @n: integer wil be parameter
+ * Return: void
+ */
 void print_to_98(int n)
 {
 	if (n < 98)
@@ -8,14 +14,11 @@ void print_to_98(int n)
 		{
 			if (n == 98)
 			{
-				_putchar(n + '0');
-				_putchar('\n');
+				printf("%d\n", n);
 			}
 			else
 			{
-				_putchar(n + '0');
-				_putchar(',');
-				_putchar(' ');
+				printf("%d, ", n);
 			}
 		}
 	}
@@ -25,21 +28,17 @@ void print_to_98(int n)
 		{
 			if (n == 98)
 			{
-				_putchar(n + '0');
-				_putchar('\n');
+				printf("%d\n", n);
 			}
 			else
 			{
-				_putchar(n + '0');
-				_putchar(',');
-				_putchar(' ');
+				printf("%d, ", n);
 			}
 		}
 	}
 	else
 	{
-		_putchar(n + '0');
-		_putchar('\n');
+		printf("%d\n", n);
 	}
 }
 
