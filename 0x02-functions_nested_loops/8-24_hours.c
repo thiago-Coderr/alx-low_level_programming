@@ -7,8 +7,8 @@
 void jack_bauer()
 {
 	int h1 = 0, h2 = 0;
-	int m1, m2;
-	int a = 9;
+	int m1 = 0, m2 = 0;
+	int a;
 
 	while (h2 <= 2)
 	{
@@ -18,10 +18,8 @@ void jack_bauer()
 		}
 		while (h1 <= a)
 		{
-			m2 = 0;
 			while (m2 <= 5)
 			{
-				m1 = 0;
 				while (m1 <= 9)
 				{
 					_putchar(h2 + '0');
