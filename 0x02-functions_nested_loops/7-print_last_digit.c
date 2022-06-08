@@ -5,6 +5,6 @@ int print_last_digit(int n)
 	int last;
 
 	last = n % 10;
-	_putshar(last + '0');
-	_putchat('\n');
+	_putchar(last + '0');
+	_putchar('\n');
 }
