@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - functions to check
+ * _islower - functions to check a letter
  * @c:integer
  * Return: will return true false
  */
