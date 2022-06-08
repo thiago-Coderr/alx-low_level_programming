@@ -2,7 +2,7 @@
 
 /**
  * islower - functions to check
- * _islower - checks the same
+ * @c:integer
  * Return: will return true false
  */
 int _islower(int c)
