@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * times_tables - returns the tabe
+ * times_table - returns the tabe
  * Return: void
  */
 void times_table()
 {
-	int a, a, op;
+	int a, b, op;
 
 	for (a = 0; a <= 9; a++)
 	{
