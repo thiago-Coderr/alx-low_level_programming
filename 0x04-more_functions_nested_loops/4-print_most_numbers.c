@@ -4,7 +4,6 @@
  * print_most_numbers - print all rathar than 2 an 4
  * Return: no return
  */
-
 void print_most_numbers(void)
 {
 	int i;
