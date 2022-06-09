@@ -2,8 +2,8 @@
 
 /**
  * print_line - prints lines
- * @n: is the parameter
- * Return: no return
+ * @n: number of times to print
+ * Return: void
  */
 void print_line(int n)
 {
@@ -18,5 +18,6 @@ void print_line(int n)
 		for (i = 0; i < n; i++){
 			_putchar('_');
 		}
+		_putchar('\n');
 	}
 }
