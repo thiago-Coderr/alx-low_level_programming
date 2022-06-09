@@ -6,24 +6,22 @@
  * Return: void
  */
 
-void print_diagonal(int n)
+void print_diagonal(int n);
 {
-	int i, j;
-	
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar('\\');
-			_putchar('\n');
-			for (j = 0; j < i + 1; j++)
-			{   
-				_putchar(' ');
-			}
-		}
-	}
+int i = 0; ii;
+
+while (i < n && n > 0)
+{
+ii = 0;
+while (ii < i)
+{
+_putchar(' ');
+ii++;
+}
+_putchar('\\');
+_putchar('\n');
+i++;
+}
+if (i == 0)
+_putchar('\n');
 }
