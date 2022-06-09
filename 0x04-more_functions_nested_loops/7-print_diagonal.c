@@ -2,9 +2,10 @@
 
 /**
  * print_diagonal - prints the diagonal
- * @n: is the number of breaked lines
+ * @n: is the number of \\ to be printed
  * Return: void
  */
+
 void print_diagonal(int n)
 {
 	int i, j;
