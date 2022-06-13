@@ -21,7 +21,7 @@ void puts_half(char *str)
 		if (tam % 2 == 0)
 		{
 			half = tam / 2;
-		        for (i = half; i < tam; i++)
+			for (i = half; i < tam; i++)
 			{
 				printf("%c", *(str + i));
 			}
@@ -34,3 +34,7 @@ void puts_half(char *str)
 			{
 				printf("%c", *(str + i));
 			}
+			printf("\n");
+		}
+	}
+}
