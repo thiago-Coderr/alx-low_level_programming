@@ -3,7 +3,7 @@
 
 /**
  * The program prints every aray number
- * print_array - prints the array
+ * prints the array
  * @a: the array
  * @n: array size
  * Return: void
