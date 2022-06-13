@@ -9,8 +9,7 @@
  */
 void puts_half(char *str)
 {
-	int i; tam;
-	int half;
+	int i, tam, half;
 
 	tam = strlen(str);
 	if (str[0] == '\0')
