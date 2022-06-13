@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 /**
+ * The program prints every aray number
  * print_array _ prints the array
  * @a: the array
  * @n: array size
@@ -15,7 +16,7 @@ void print_array(int *a, int n)
 	{
 		if (i == n - 1)
 		{
-			printf(" %d", *(a + i));
+			printf("%d", *(a + i));
 		}
 		else
 		{
