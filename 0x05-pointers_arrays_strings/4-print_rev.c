@@ -14,6 +14,7 @@ void print_rev(char *s)
 	tam = strlen(s);
 	for (i = tam - 1; i >= 0; i--)
 	{
-		_putchar(*s[i]);
+		printf("%c", *(s + i));
 	}
+	printf("\n");
 }
