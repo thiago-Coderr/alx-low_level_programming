@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 /**
- * The program prints every aray number
- * prints the array
+ * print_array - prints the array
  * @a: the array
  * @n: array size
- * Return: void
  */
 void print_array(int *a, int n)
 {
