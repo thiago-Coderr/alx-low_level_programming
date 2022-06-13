@@ -29,7 +29,7 @@ void puts_half(char *str)
 		}
 		else
 		{
-			half = (tam - 1) / 2;
+			half = ((tam - 1) / 2) + 1);
 			for (i = half; i < tam; i++)
 			{
 				printf("%c", *(str + i));
