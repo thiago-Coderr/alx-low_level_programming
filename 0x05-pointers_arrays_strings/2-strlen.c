@@ -12,4 +12,4 @@ int _strlen(char *s)
 
 	tam = strlen(s);
 	return (tam);
-}	
+}
