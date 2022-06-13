@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swao_int -swaps the numbers by pointers
+ * swap_int -swaps the numbers by pointers
  * @a: the first parameter
  * @b: the second parametr
  * Return: Void
