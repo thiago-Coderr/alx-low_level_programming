@@ -14,6 +14,6 @@ void print_rev(char *s)
 	tam = strlen(s);
 	for (i = tam - 1; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		_putchar(*s[i]);
 	}
 }
